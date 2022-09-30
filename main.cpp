@@ -1,8 +1,8 @@
 #include <iostream>
 
-float addition(float, float);
-float division(float, float);
-void print_result(std::string, float);
+#include "addition.h"
+#include "division.h"
+#include "print_result.h"
 
 int main() {
   float first_no, second_no, result_add, result_div;
