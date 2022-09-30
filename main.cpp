@@ -1,12 +1,7 @@
 #include <iostream>
 
-float addition(float num1, float num2) { return num1 + num2; }
 
-float division(float num1, float num2) { return num1 / num2; }
 
-void print_result(std::string result_type, float result_value) {
-  std::cout << result_type << " result:\t" << result_value << "\n";
-}
 
 int main() {
   float first_no, second_no, result_add, result_div;
